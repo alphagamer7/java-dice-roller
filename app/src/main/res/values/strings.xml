@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+
+    <string name="roll_result">Roll Result: --</string>
+    <plurals name="roll_results">
+        <item quantity="one">Roll Result: %1$s</item>
+        <item quantity="other">Roll Results: %1$d, %2$d</item>
+    </plurals>
+
+    <string name="roll_once">Roll Once</string>
+    <string name="roll_twice">Roll Twice</string>
+    <string name="number_of_sides">Number of sides</string>
+    <string name="add_new_die">Add New Die</string>
+
+    <string name="history_initial">History: --</string>
+    <string name="history">History: %1$s</string>
+    <string name="notice_special_rolls">Note: Select 10 sided die for special feature</string>
+    <string name="true_10_sided_die">True 10 sided die</string>
+</resources>

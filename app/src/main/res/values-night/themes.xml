@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DiceRoller" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!-- Modify default Toolbar Style on Application level. -->
+        <item name="toolbarStyle">@style/Theme.DiceRoller.Toolbar</item>
+        <!-- Apply Spinner Style on Application level. -->
+        <item name="android:spinnerItemStyle">@style/Theme.DiceRoller.SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Theme.DiceRoller.SpinnerDropDownItem</item>
+        <!-- Apply Button Style on Application level. -->
+        <item name="materialButtonStyle">@style/Theme.DiceRoller.Button</item>
+    </style>
+
+    <!-- Style for Toolbar/ActioBar. -->
+    <style name="Theme.DiceRoller.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="background">@color/white</item>
+        <item name="titleTextColor">@color/black</item>
+    </style>
+
+    <!-- Style for Text Views. -->
+    <style name="Theme.DiceRoller.TextView">
+        <item name="android:textSize">@dimen/text_view_text_size</item>
+        <item name="android:textColor">@color/light_green_a400</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for Notice Text Views. -->
+    <style name="Theme.DiceRoller.Notice">
+        <item name="android:textSize">@dimen/notice_text_size</item>
+        <item name="android:textColor">@color/light_green_a400</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for CheckBoxes. -->
+    <style name="Theme.DiceRoller.CheckBox">
+        <item name="android:textSize">@dimen/checkbox_text_size</item>
+        <item name="android:textColor">@color/light_green_a400</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Style for Spinners. -->
+    <style name="Theme.DiceRoller.SpinnerItem" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/spinner_text_size</item>
+    </style>
+    <style name="Theme.DiceRoller.SpinnerDropDownItem" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:textSize">@dimen/spinner_text_size</item>
+    </style>
+
+    <!-- Style for Buttons. -->
+    <style name="Theme.DiceRoller.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
